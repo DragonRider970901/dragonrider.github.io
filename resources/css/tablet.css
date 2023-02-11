@@ -1,0 +1,220 @@
+@media only screen and (min-width:768px) and (max-width:1024px)
+{
+    .mobile {
+        display: none;
+    }
+
+
+    .logo {
+        color: #4a4a4a;
+        font-size: 1.5rem;
+        font-family: 'Roboto Mono', monospace;
+        text-decoration: none;
+        
+    }
+
+    header {
+        height: 85px;
+        width: 100%;
+    }
+
+    header .content {
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 85px;
+        width: 100%;
+        display: flex;
+        
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+    }
+
+    header .desktop {
+        display: inline-flex;
+        margin: 0px 0px;
+        height: 85px;
+        width: 80%;
+        flex-direction: row;
+        align-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    header .desktop .options {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin: 0px 0px;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        list-style-type: none;
+        justify-content: flex-end;
+        
+        
+    }
+
+
+    header .desktop .options .middleli {
+        margin: 0px 15px;
+    }
+
+    header .desktop .options .instagram img {
+        margin-left: 5px;
+        margin-right: 15px;
+        position: relative;
+
+
+    }
+
+    header .desktop .options .instagram a {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    header .desktop .options li a {
+        text-decoration: none;
+        color: #4a4a4a;
+    }
+
+    header .options img {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    header .options .button
+    {
+        background-color: #9dc20b;
+        padding: 3px 8px;
+        border-radius: 4px;
+        margin-left: 0px;
+    }
+    header .options .button a
+    {
+        margin: 3px 8px;
+    }
+
+    .main-content .banner
+    {
+        background-image: url("./banner-landingpage.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-content .banner .content h2
+    {
+        color: white;
+        font-family: 'Damion', cursive;
+        font-weight: 400;
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .main-content .banner .content h1
+    {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 50px;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .main-content .banner .email
+    {
+        display: none;
+    }
+
+    .feature
+{
+    height: 446px;
+    margin-bottom: 100px;
+    margin-top: 32px;
+    background-color: white;
+    width: 49%;
+    margin-bottom: 32px;
+}
+.image-container
+{
+    
+    margin-left: -16px;
+    margin-right: -16px;
+    
+    height: 65%;
+}
+.image-container img
+{
+    width: 100%;
+    height: 284px;
+
+    margin-top: 20px;
+    object-fit: cover;
+    margin-left: 0px;
+}
+.left .content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left .content h2{
+    width: 100%;
+    color: #4a4a4a;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+.left .content h3{
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+    font-weight: 200;
+    opacity: 70%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 0px;
+}
+.right
+{
+    margin-left: 1%;
+}
+.right .content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right .content h2{
+    width: 100%;
+    color: #4a4a4a;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+.right .content h3{
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+    font-weight: 200;
+    opacity: 70%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 0px;
+}
+}
